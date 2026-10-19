@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (never upload large torch/pip binaries)
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution & packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Output transcriptions
+outputs/
+
+# Audio & Video media files (keep tests/jfk.flac for pytest)
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.ogg
+*.aac
+!tests/jfk.flac
+
+# Model weights & cache
+*.pt
+*.pth
+*.bin
+*.safetensors
+.cache/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Editor / IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+
